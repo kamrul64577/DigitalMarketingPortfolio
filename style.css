@@ -1,0 +1,255 @@
+nav{
+    background: #fff;
+    height: 110px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-right: 0.8rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.navbar .cart {
+    padding-right: 2rem;
+}
+
+.active {
+    font-weight: 900;
+}
+
+
+
+.header-portfolio{
+    background: url(img/marketing-bg6.png);
+    background-size: cover;
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    position: relative;
+}
+.header-portfolio .layer{
+    background: rgba(134, 156, 254, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 430px;
+
+
+}
+.header-portfolio h2 {
+    color: #fff;
+    letter-spacing: 0.8rem;
+    font-weight: 600;
+}
+
+.header-portfolio h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.hello img {
+
+    height: 80vh;
+}
+
+@media only screen and (max-width: 1600px) {
+    .cart1 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1053px) {
+    .navbar .navbar-nav .nav-item {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .cart1 {
+        display: block;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        border-bottom: 1px solid #FAFAFA;
+        transition: 0.7s;
+        -webkit-transform: ;
+        -moz-transform: ;
+        -ms-transform: ;
+        -o-transform: ;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -ms-transition: 0.7s;
+        -o-transition: 0.7s;
+    }
+
+    .navbar .navbar-nav .nav-item:hover {
+        background-color: #FAFAFA;
+    }
+
+}
+
+
+.footer-portfolio {
+    background: url(img/marketing-bg6.png);
+    background-size: 1200px 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-position: bottom top;
+    position: relative;
+}
+
+.footer-portfolio .layer{
+    background: rgba(134, 156, 254, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+
+
+}
+
+.footer-portfolio h2 {
+    color: #fff;
+    letter-spacing: 0.8rem;
+    font-weight: 600;
+}
+
+.footer-portfolio h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-portfolio button{
+    padding: 15px 15px;
+    background: RGB(164, 235, 238);
+    min-width: 30%;
+    transition: 0.7s;
+    position: relative;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+button:after{
+    content:"\f138";
+    position: absolute;
+    font-family: "fontawesome";
+    right: 20px;
+    opacity: 0;
+}
+button:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+button:hover:after{
+    opacity: 1;
+    
+}
+
+
+
+
+/*.footer-portfolio .social-area ul{
+    margin-left: 26.5rem;
+}*/
+
+
+.footer-portfolio .social-area ul li {
+    display: inline-block;
+    background-color: #FCB6AB;
+    padding-top: 10px;
+    padding-right: 2x;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.social-area ul li a .fab,
+.social-area ul li a .fas {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+.footer {
+    background: black;
+    min-height: 65px
+}
+
+.footer p {
+    color: #757272;
+}
+
+.footer ul li {
+    float: right;
+}
+
+.footer ul li a .fab,
+.footer ul li a .fas {
+    font-size: 35px;
+    color: #757272;
+    padding: 10px 20px;
+
+}
+
+
+
+@media (max-width:768px) {
+    .footer-portfolio h2 {
+        font-size: 30px;
+        letter-spacing: 0.4rem;
+
+    }
+
+    .footer-portfolio h1 {
+        font-size: 40px;
+    }
+
+    .social-area ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .footer-portfolio h2 {
+        font-size: 20px;
+        letter-spacing: 0.4rem;
+
+    }
+
+    .footer-portfolio h1 {
+        font-size: 30px;
+    }
+
+    .social-area ul {
+        padding-left: 0;
+    }
+
+    .footer ul li a .fab,
+    .footer ul li a .fas {
+        font-size: 25px;
+    }
+}
